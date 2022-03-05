@@ -2,11 +2,14 @@ import React from "react";
 
 
 import {Text,View} from "react-native";
-
+import Feed from "../../components/Feed";
 
 const HomeScreen = () => {
     return(
-        <Text>sanny here!!</Text>
+        <View>
+            <Text>Instagram</Text>
+            <Feed />
+        </View> 
     )
 };
 

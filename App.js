@@ -11,7 +11,8 @@ import HomeScreen from "./src/screens/HomeScreen"
 const App = () =>{
     return (
         <>
-            <StatusBar barStyle={barStyle='dark-content'} /><SafeAreaView>
+            <StatusBar barStyle={barStyle='dark-content'} />
+            <SafeAreaView>
                 <HomeScreen />
             </SafeAreaView>
         </>
