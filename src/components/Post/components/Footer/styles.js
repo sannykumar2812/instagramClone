@@ -8,9 +8,17 @@ const styles = StyleSheet.create({
         fontWeight:'bold',
         margin:3,
         fontSize:16,
-        color:'#1a1919',
-        
-        
+        color:'#1a1919', 
+    },
+    left:{
+        flexDirection:'row',
+        width:110,
+        justifyContent:'space-between',
+    },
+    iconsContainer:{
+            flexDirection:'row',
+            justifyContent:'space-between',
+            margin:10
     },
     caption :{
         margin:3,

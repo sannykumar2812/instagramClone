@@ -15,7 +15,7 @@ const Post = ( {post} ) => {
 <View>
     <Header imageUri={post.user.imageUri} name={post.user.name} />
     <Body imageUri={post.imageUri} />
-    <Footer likescount={post.likescount} 
+    <Footer likesCount={post.likesCount} 
     caption={post.caption} 
     postedit={post.postedit} 
     />
