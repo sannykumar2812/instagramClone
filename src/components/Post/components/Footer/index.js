@@ -17,14 +17,13 @@ import FontAwesome from  'react-native-vector-icons/FontAwesome';
 const Footer = ({likesCount:likesCountProp,caption,postedit}) => {
 
 
-//  { changing on click the like button or increase descrease the number}
+//  { changing on click the like button or increase descrease the likesCount}
 const [isLiked, setIsLike] = useState(false);
 const [ likesCount, setLikesCount] = useState(0);
 
-
     const onLikePressed = () => {
-        // const amount = isLiked ? -1 : 1;
-        // setLikesCount(likesCount + amount);
+        const amount = isLiked ? -1 : 1;
+        setLikesCount(likesCount + amount);
     
         setIsLike(!isLiked);
     }
@@ -41,7 +40,7 @@ const [ likesCount, setLikesCount] = useState(0);
                     <TouchableWithoutFeedback 
                             onPress={ onLikePressed } >
                             {
-                            // condition for click on the like button 
+                            // condition for click on the like button and likes count
                             isLiked ? <ADIcon name="heart" size={26} color={"red"} ></ADIcon> :
                             <ADIcon name="hearto" size={26} color={"#1a1b1c"} ></ADIcon>
                             }
@@ -51,7 +50,7 @@ const [ likesCount, setLikesCount] = useState(0);
                 </View>
                 <FontAwesome name="bookmark-o" size={26} color={"#1a1b1c"} ></FontAwesome>
             </View>    
-            <Text style={styles.likescount}>{likesCount}</Text>
+            <Text style={styles.likescount}>{likesCount} Likes</Text>
             <Text style={styles.caption}>{caption}</Text>
             <Text style={styles.postedit}>{postedit}</Text>
         

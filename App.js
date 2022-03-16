@@ -1,21 +1,16 @@
 import React from 'react';
 
-import {
-    StatusBar,
-    SafeAreaView
-} from 'react-native';
 
-import HomeScreen from "./src/screens/HomeScreen"
+import {NavigationContainer} from '@react-navigation/native'
+import TabNavigator from './src/TabNavigator';
+
 
 
 const App = () =>{
     return (
-        <>
-            <StatusBar barStyle={barStyle='dark-content'} />
-            <SafeAreaView>
-                <HomeScreen />
-            </SafeAreaView>
-        </>
+        <NavigationContainer>
+        <TabNavigator />
+        </NavigationContainer>
     )
 }
 
