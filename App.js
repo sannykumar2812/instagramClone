@@ -2,14 +2,14 @@ import React from 'react';
 
 
 import {NavigationContainer} from '@react-navigation/native'
-import TabNavigator from './src/TabNavigator';
+import BottomTabNavigator from './src/router/BottomTabNavigator.js';
 
 
 
 const App = () =>{
     return (
         <NavigationContainer>
-        <TabNavigator />
+        <BottomTabNavigator />
         </NavigationContainer>
     )
 }

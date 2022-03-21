@@ -61,6 +61,6 @@ data={data}
 renderItem={({item})=> <Post post={item}></Post> }
 ListHeaderComponent={Stories}
 />
-    )
+)
 }
 export default  Feed;
