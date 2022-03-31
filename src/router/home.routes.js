@@ -7,7 +7,8 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 
 
 import HomeScreen from '../screens/HomeScreen';
-import logo from "../assests/images/logo.png"
+import logo from "../assests/images/logo.png";
+import StoryScreen from '../screens/StoryScreen';
 
 const HomeStack = createNativeStackNavigator();
 const Homeroutes = () => {
@@ -20,7 +21,7 @@ return (
         headerShown: true,
         title:' Instagram',
         headerTitle: () => (
-            <Image source={logo} resizeMode="contain" style={{width: 135, height: 50}}/>
+            <Image source={logo} resizeMode="contain" style={{width: 130, height: 55}}/>
         ),
         headerRight : ()=>(
             <View style={{flexDirection:'row',justifyContent:'space-between'}}>
@@ -29,9 +30,9 @@ return (
         </View>
         )
         }}
-    >
+    />
+    <HomeStack.Screen name="Story" component={StoryScreen} options={{ headerShown: false, title:"Instagram"}}/>
 
-    </HomeStack.Screen>
 </HomeStack.Navigator>
 )
 }

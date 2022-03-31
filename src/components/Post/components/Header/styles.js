@@ -16,6 +16,9 @@ const styles = StyleSheet.create({
         alignSelf:'center',
         color:'black',
         fontSize: 20,
+    },
+    page:{
+        color:'red'
     }
 })
 

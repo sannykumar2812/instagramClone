@@ -13,7 +13,8 @@ import SearchScreen from '../screens/SearchScreen';
 import ReelScreen from '../screens/ReelScreen';
 import ActivityScreen from '../screens/ActivityScreen';
 import ProfileScreen from '../screens/ProfileScreen';
-import HomeStackScreen from './Homeroutes';
+import HomeStackScreen from './home.routes';
+
 const Tab = createBottomTabNavigator();
 
 const BottomTabNavigator = () => {
@@ -55,6 +56,7 @@ const BottomTabNavigator = () => {
                 <Tab.Screen name="Reel" component={ReelScreen} options={{ headerShown: false }}/>
                 <Tab.Screen name="Activity" component={ActivityScreen} options={{ headerShown: false }}/>
                 <Tab.Screen name="Profile" component={ProfileScreen} options={{ headerShown: false }}/>
+                
 
 
             </Tab.Navigator>

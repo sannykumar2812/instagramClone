@@ -1,8 +1,7 @@
 import React from "react";
 
 import {
-    Text,
-    View
+    View,
 } from 'react-native'
 
 import Header from "./components/Header";
@@ -22,5 +21,6 @@ const Post = ( {post} ) => {
 </View>
     )
 }
+
 
 export default Post;

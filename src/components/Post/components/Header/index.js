@@ -5,7 +5,6 @@ import Icon from 'react-native-vector-icons/Entypo'
 import {
     Text,
     View,
-    StyleSheet
 } from 'react-native'
 
 import ProfilePicture from "../../../ProfilePicture";
