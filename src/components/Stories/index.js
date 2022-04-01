@@ -16,7 +16,7 @@ showsHorizontalScrollIndicator={false}
 horizontal
 style={styles.container}
 data={storiesData}
-keyExtractor={({name})=> name}
+keyExtractor={({user:{id}})=> id}
 renderItem={({item})=> <Story story={item} />}
 > 
 </FlatList>

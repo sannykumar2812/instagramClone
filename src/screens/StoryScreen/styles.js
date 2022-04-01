@@ -8,9 +8,6 @@ const styles = StyleSheet.create({
     flex: 1,
     resizeMode: "cover",
     justifyContent: "space-between",
-
-
-
   },
   userInfo: {
     flexDirection: "row",

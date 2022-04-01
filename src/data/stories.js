@@ -119,28 +119,76 @@ export default [
             id:'7',
             imageUri: 'https://images.unsplash.com/photo-1643066469935-d0c87dda2098?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3N3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
         name : "Kevil"
-        }
+        },
+        stories: [
+            {
+            imageUri: 'https://i.insider.com/5d03aa8e6fc9201bc7002b43?width=1136&format=jpeg',
+            postedTime: '25 m',
+            }, {
+            imageUri: 'https://images.unsplash.com/photo-1526512340740-9217d0159da9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
+            postedTime: '25 m',
+            }, {
+            imageUri: 'https://images.unsplash.com/photo-1576109188032-aed32779c007?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dW5wbHVnZ2VkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+            postedTime: '25 m',
+            }
+        ]
         
     },{
         user:{
             id:'8',
             imageUri: 'https://images.unsplash.com/photo-1646320906684-cb1dcc9bf8e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
         name : "Monty"
-        }
+        },
+        stories: [
+            {
+            imageUri: 'https://i.insider.com/5d03aa8e6fc9201bc7002b43?width=1136&format=jpeg',
+            postedTime: '25 m',
+            }, {
+            imageUri: 'https://images.unsplash.com/photo-1526512340740-9217d0159da9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
+            postedTime: '25 m',
+            }, {
+            imageUri: 'https://images.unsplash.com/photo-1576109188032-aed32779c007?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dW5wbHVnZ2VkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+            postedTime: '25 m',
+            }
+        ]
         
     },{
         user:{
             id:'9',
             imageUri: 'https://images.unsplash.com/photo-1646297226339-febd1eaee532?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80',
         name : "Sunil"
-        }
+        },
+        stories: [
+            {
+            imageUri: 'https://i.insider.com/5d03aa8e6fc9201bc7002b43?width=1136&format=jpeg',
+            postedTime: '25 m',
+            }, {
+            imageUri: 'https://images.unsplash.com/photo-1526512340740-9217d0159da9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
+            postedTime: '25 m',
+            }, {
+            imageUri: 'https://images.unsplash.com/photo-1576109188032-aed32779c007?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dW5wbHVnZ2VkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+            postedTime: '25 m',
+            }
+        ]
         
     },{
         user:{
             id:'10',
             imageUri: 'https://images.unsplash.com/photo-1644982647531-daff2c7383f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw5OXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60',
         name : "Nayan"
-        }
+        },
+        stories: [
+            {
+            imageUri: 'https://i.insider.com/5d03aa8e6fc9201bc7002b43?width=1136&format=jpeg',
+            postedTime: '25 m',
+            }, {
+            imageUri: 'https://images.unsplash.com/photo-1526512340740-9217d0159da9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
+            postedTime: '25 m',
+            }, {
+            imageUri: 'https://images.unsplash.com/photo-1576109188032-aed32779c007?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dW5wbHVnZ2VkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
+            postedTime: '25 m',
+            }
+        ]
         
     }
     
