@@ -1,6 +1,5 @@
 import { useNavigation, useRoute } from '@react-navigation/native'
 import React, {useState,useEffect} from 'react'
-import ProfilePicture from '../../components/ProfilePicture'
 
 import { 
     View,
@@ -13,9 +12,13 @@ import {
     Dimensions,
 } from 'react-native'
 
-
+import ProfilePicture from '../../components/ProfilePicture'
 import styles from './styles'
 import storiesData from '../../data/stories'
+
+
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import AntDesign from 'react-native-vector-icons/AntDesign';
 const StoryScreen = () => {
     const [userStories,setActiveStories] = useState(null);
     const [activeStoryIndex,setActiveStoryIndex]=useState();
@@ -102,18 +105,34 @@ const activeStory = userStories.stories[activeStoryIndex];
 
     
     return (
-        <SafeAreaView style={styles.container}>
-            <TouchableWithoutFeedback onPress={handlePress} >
-                <ImageBackground  style={styles.image} source={{uri:activeStory.imageUri}}>
-                <View style={styles.userInfo}>
-            <ProfilePicture uri={userStories.user.imageUri} size={50} />
-            <Text style={styles.userName}>{userStories.user.name}</Text>
-            {/* <Text style={styles.postedTime}>{userStories.createdAt}</Text> */}
-          </View>
-          </ImageBackground>
-            </TouchableWithoutFeedback>
-        </SafeAreaView>
-    )
+            <SafeAreaView style={styles.container}>
+                <TouchableWithoutFeedback onPress={handlePress} >
+                    <ImageBackground  style={styles.image} source={{uri:activeStory.imageUri}}>
+                        <View style={styles.userInfo}>
+                            <ProfilePicture uri={userStories.user.imageUri} size={50} />
+                            <Text style={styles.userName}>{userStories.user.name}</Text>
+                            <Text style={styles.postedTime}>{activeStory.postedTime}</Text>
+                        </View>
+                            <View style={styles.bottomContainer}>
+                                <View style={styles.textInputContainer}>
+                                    <TextInput
+                                        style={styles.textInput}
+                                        editable
+                                        placeholder="Send message"
+                                        placeholderTextColor={"white"}
+                                    />
+                                </View>
+                                    <View style={styles.likeButton}>
+                                        <AntDesign name="hearto" size={30} color={'#ffffff'}></AntDesign>
+                                    </View>
+                                        <View style={styles.messageButton}>
+                                                <Ionicons name="paper-plane-outline" size={35} color={"#ffffff"}/>
+                                        </View>
+                            </View>
+                    </ImageBackground>
+                </TouchableWithoutFeedback>
+            </SafeAreaView>
+        )
 }
 
 export default StoryScreen

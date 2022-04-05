@@ -27,14 +27,15 @@ const styles = StyleSheet.create({
   },
   bottomContainer: {
     flexDirection: "row",
-    marginBottom: 20,
-    marginHorizontal: 10
+    marginBottom:10,
+    marginHorizontal: 10,
+    // backgroundColor:"black"
   },
-  cameraButton: {
+  likeButton: {
     width: 50,
     alignItems: 'center',
     justifyContent: 'center',
-    borderWidth: 1,
+    // borderWidth: 1,
     borderColor: 'white',
     borderRadius: 50,
   },
