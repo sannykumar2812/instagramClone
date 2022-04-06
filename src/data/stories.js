@@ -49,7 +49,7 @@ export default [
             imageUri: 'https://i.insider.com/5d03aa8e6fc9201bc7002b43?width=1136&format=jpeg',
             postedTime: '25 m',
             }, {
-            imageUri: 'https://images.unsplash.com/photo-1526512340740-9217d0159da9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
+            imageUri: 'https://images.unsplash.com/photo-1649118189217-6821660c4725?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60',
             postedTime: '25 m',
             }, {
             imageUri: 'https://images.unsplash.com/photo-1576109188032-aed32779c007?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dW5wbHVnZ2VkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60',
